@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: white;
+    margin: 2em;
+}
+.header {
+    margin: 0;
+    background: rgb(1, 2, 22);
+    color: white;
+}
+h1{
+    margin-left: 300px;
+    padding-bottom: 25px;
+}
+header img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 15%;
+
+}
+.navbar {
+background:gold;
+height:  50px;
+margin-left: 300px;
+margin-right: 200px;
+font-size: 20px;
+text-align: right;
+text-decoration: none;
+padding-top: 25px;
+padding-right: 10px;
+}
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 1px;
+    color: white;
+}
+
+.maintext {
+    margin-left:300px;
+    margin-right: 200px;
+    margin-top: 3em;
+    text-align: justify;
+}
+.button {
+background-color:crimson;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 70px;
+  text-align: center;
+  font-size: 16px;
+}
+section a {
+margin-left: 350px;
+margin-right: 170px;
+position: absolute;
+}
+.tablemain {
+    margin-left: 300px;
+    padding: 1em 0;
+}
+
+.table{
+    background:rgb(0, 24, 76) ;
+    color:white;
+    height: 360px;
+
+}
+table, th, td {
+    border: 1px solid red;
+    border-collapse: collapse;
+    margin-left: 300px;
+    margin-bottom: 50px;
+
+ 
+}
+td:nth-of-type(1){
+   height: 40px;
+   text-align: center;
+   width: 350px;
+}
+td:nth-of-type(2){
+   height: 40px;
+   text-align: right;
+   width: 600px;
+}
+.smiltainis {
+    text-align: right;
+    padding-right: 1em;
+    font-weight: bold;
+}
+.people {
+    font-weight: bold;
+    text-align: right !important;
+    padding-right: 1em;
+}
+.contacts {
+    margin-left: 300px;
+    padding-top: 2em;
+}
+.contacts a {
+    text-align: center;
+}
+ul {
+    margin-left: 2em;
+    padding: 2em;
+    font-size: 20px;
+}
+footer {
+    background: gold;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
